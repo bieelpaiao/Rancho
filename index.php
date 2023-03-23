@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Rancho Gardênia</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">        
         <link href="assets/css/styles.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/18c0c84c7c.js" crossorigin="anonymous"></script>
+        <script src="./assets/js/script.js" defer></script>
     </head>
 
     <body>
@@ -32,7 +33,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">A Casa</a>
+                                <a class="nav-link" href="#gallery-area">A Casa</a>
                             </li>
 
                             <li class="nav-item">
@@ -128,6 +129,26 @@
                 </div>
             </div>
 
+            <div id="gallery-area">
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <h3 class="main-title">A casa</h3>
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="wrapper">
+                                <i id="left" class="fa-solid fa-angle-left"></i>
+                                <div class="carrossel">
+                                    <?php include "galeria.php" ?>
+                                </div>
+                                <i id="right" class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div id="services-area">
                 <div class="container">
                     <div class="row">
@@ -173,7 +194,7 @@
                     <div class="row align-items-center">
                         <div class="col-12" id="bg-contact-title">
                             <h3 class="contact-title">Reserve Agora!</h3>
-                            <p class="contact-subtitle">Escolha uma data para reservar o local</p>
+                            <p class="contact-subtitle">Preencha o formulário e entraremos em contato</p>
                         </div>
                     </div>
                 </div>
@@ -181,48 +202,42 @@
             
             <div id="contact-content">
                 <div class="container-fluid text-center">
-                    <div class="row align-items-center ps-5 pe-5">
+                    <form class="row align-items-center ps-5 pe-5" action="form.php" method="POST">
                         <div class="col-md-6 p-5">
-                            <a href="mailto:vanderclei05@gmail.com" target="blank">
-                                <div class="row align-items-center rounded-3 p-2 mt-3" id="contact-card">
-                                    <div class="col-md-2">
-                                        <i class="fa-regular fa-envelope"></i>
-                                    </div>
-
-                                    <div class="col-md-10">
-                                        <p id="card-text">Clique aqui e nos envie uma mensagem via e-mail!</p>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <div class="text-center my-3" id="social-media">
-                                <p>Siga-nos em nossas redes sociais</p>
+                            <div class="dates-title-bg">
+                                <span>Escolha as datas de interesse</span>
                             </div>
+                            <div class="dates-bg">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="inputName" class="form-label">Entrada</label>
+                                        <input type="date" class="form-control" id="data-entrada" name="data-entrada" required>
+                                    </div>
 
-                            <div class="row align-items-center rounded-3 p-2 mt-3" id="contact-medias">
-                                <div class="col">
-                                    <a href="" target="blank"> <i class="fa-brands fa-facebook mx-3"></i> </a>
-                                    <a href="" target="blank"> <i class="fa-brands fa-instagram mx-3"></i> </a>
+                                    <div class="col-md-6">
+                                        <label for="inputName" class="form-label">Saída</label>
+                                        <input type="date" class="form-control" id="data-saida" name="data-saida" required>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 m-0 px-5">
                             <div class="contact-form-bg p-3">
-                                <form class="row g-3">
+                                <form class="row g-3" action="form.php" method="POST">
                                     <div class="col-md-12 text-start">
                                         <label for="inputName" class="form-label">Nome Completo</label>
-                                        <input type="text" class="form-control" id="inputName">
+                                        <input type="text" class="form-control" id="nome" name="nome" required>
                                     </div>
 
                                     <div class="col-md-12 text-start">
                                         <label for="inputEmail" class="form-label">E-mail</label>
-                                        <input type="text" class="form-control" id="inputEmail">
+                                        <input type="email" class="form-control" id="email" name="email" required>
                                     </div>
 
                                     <div class="col-md-12 text-start">
-                                        <label for="inputMessage" class="form-label">Mensagem</label>
-                                        <textarea class="form-control" id="inputMessage"></textarea>
+                                        <label for="mensagem" class="form-label">Mensagem</label>
+                                        <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
                                     </div>
 
                                     <div class="col-12">
@@ -231,7 +246,7 @@
                                 </form>  
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
 
@@ -268,6 +283,8 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

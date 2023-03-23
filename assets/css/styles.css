@@ -109,50 +109,158 @@ header, .navbar {
 
 #about-area {
     background-color: #F9F9F9;
-  }
+}
 
-  .main-title {
+.main-title {
     color: #444;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
-  }
+}
 
-  .main-title::after {
+.main-title::after {
     content: "";
     border-top: 2px solid #333;
     width: 15%;
     position: absolute;
     margin-top: 60px;
     left: 42.5%;
-  }
+}
 
-  .about-title {
+.about-title {
     font-size: 17px;
     color: #444;
     text-transform: uppercase;
     font-weight: bold;
-  }
+}
 
-  #about-list {
+#about-list {
     list-style: none;
     padding-left: 0;
-  }
+}
 
-  #about-list li {
+#about-list li {
     line-height: 30px;
-  }
+}
 
-  #about-list i {
+#about-list i {
     color: #01367d;
     margin-right: 15px;
-  }
+}
 
-  #about-area .about-text{
+#about-area .about-text{
     margin-top: 42px;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+  }
+  .wrapper i{
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: var(--main-color);
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover{
+    background: var(--tertiary-color);
+  }
+  .wrapper i:first-child{
+    left: -22px;
+    z-index: 1000;
+    display: none;
+  }
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  .wrapper .carrossel{
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carrossel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carrossel.dragging img{
+    pointer-events: none;
+  }
+  .carrossel img{
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+  }
+  .carrossel img:first-child{
+    margin-left: 0px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .carrossel img{
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .carrossel img{
+      width: 100%;
+    }
   }
 
-/* ----------------------------------------- ÁREAS DE PESQUISA ----------------------------------------- */
+  .modal-dialog {
+    max-width: 100vh;
+    max-height: 90vh;
+  }
+
+  .modal-dialog img{
+    width: 100%; 
+    height: 100%; 
+  }
+
+  .modal-dialog .btn{
+    background-color: var(--secondary-color);
+    color: var(--main-color); 
+  }
+
+  .modal-dialog .btn:hover{
+    background-color: var(--tertiary-color);
+    color: var(--main-color); 
+  }
+
+#zoom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+
+#zoom-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
 #services-area .container {
 padding-bottom: 0;
 }
@@ -197,33 +305,24 @@ color: var(--tertiary-color);
     color: var(--secondary-color);
 }
 
-#contact-card {
-    background-color: white;
-}
-
 #contact-content {
     background-image: url("../img/sol-mar.jpg");
 }
 
-#contact-card i, #contact-medias i {
-    color: var(--main-color);
-    font-size: 60px;
-    width: 60px;
+.dates-bg {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-#contact-content a {
-    color: var(--main-color);
-    text-decoration: none;
-}
-
-#card-text {
-    margin: 0;
+.dates-title-bg {
+    background-color: var(--main-color);
+    padding: 3px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     color: var(--secondary-color);
-}
-
-#social-media {
-    color: var(--main-color);
-    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .contact-form-bg {
@@ -231,7 +330,7 @@ color: var(--tertiary-color);
     height: 100%;
 }
 
-#inputMessage {
+#mensagem {
     height: 100px;
 }
 
@@ -285,7 +384,7 @@ color: var(--tertiary-color);
     padding: 15px;
 }
 
-#services-area, #about-area, #location-area {
+#services-area, #about-area, #location-area, #gallery-area {
     scroll-margin-top: 60px;
 }
 
@@ -445,3 +544,4 @@ color: var(--tertiary-color);
         justify-content: center;
     }
 }
+  
