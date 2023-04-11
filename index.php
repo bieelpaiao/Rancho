@@ -15,7 +15,7 @@
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="./assets/img/logo_cia2.png" alt="Logo Cia da Pesca" id="navbar-logo">
+                        <img src="./assets/img/logo_verde.png" alt="Logo Cia da Pesca" id="navbar-logo">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -276,7 +276,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <img id="logo-copy" src="./assets/img/logo_cia2.png" alt="LAMOAM">
+                            <img id="logo-copy" src="./assets/img/logo_verde.png" alt="LAMOAM">
                             <p>Copyright <a href="">Rancho Cia da Pesca</a> &copy; 2023 </br> Desenvolvido por  <a href="https://www.linkedin.com/in/gabrielpaiao/" target="_blank">Gabriel Paião</a></p>
                         </div>
                     </div>
