@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Rancho Gardênia</title>
+        <title>Rancho Macakinha</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">        
         <link href="assets/css/styles.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/18c0c84c7c.js" crossorigin="anonymous"></script>
@@ -65,37 +65,37 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/pescaria.jpg" class="d-block w-100 carousel-img" alt="Pescaria">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="./assets/galeria/pescaria.jpg" class="d-block w-100 carousel-img" alt="Pescaria">
+                        <div class="carousel-caption d-block">
                             <h2>Pescaria</h2>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="./assets/img/churrasco.jpg" class="d-block w-100 carousel-img" alt="Churrasco">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Área de Churrasco</h2>
+                        <img src="./assets/galeria/acomodacoes.jpg" class="d-block w-100 carousel-img" alt="Acomodações">
+                        <div class="carousel-caption d-block">
+                            <h2>Acomodações</h2>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="./assets/img/casinha.jpg" class="d-block w-100 carousel-img" alt="Casa na Árvore">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Casa na Árvore</h2>
+                        <img src="./assets/galeria/casinha-arvore.jpg" class="d-block w-100 carousel-img" alt="Casinha na Árvore">
+                        <div class="carousel-caption d-block">
+                            <h2>Casinha na Árvore</h2>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="./assets/img/lazer.jpg" class="d-block w-100 carousel-img" alt="Lazer">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="./assets/galeria/lazer.jpg" class="d-block w-100 carousel-img" alt="Lazer">
+                        <div class="carousel-caption d-block">
                             <h2>Lazer</h2>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="./assets/img/beira-rio.jpg" class="d-block w-100 carousel-img" alt="Beira do Rio">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Beira do Rio</h2>
+                        <img src="./assets/galeria/acesso-represa.jpg" class="d-block w-100 carousel-img" alt="Acesso à represa">
+                        <div class="carousel-caption d-block">
+                            <h2>Acesso à represa</h2>
                         </div>
                     </div>
                 </div>
@@ -118,12 +118,11 @@
                             <h3 class="main-title">Sobre nós</h3>
                         </div>
 
-                        <div class="col-md-6">
-                            <img class="img-fluid" src="./assets/img/peixes.jpg" alt="Patrícia Gazeta">
-                        </div>
-
-                        <div class="col-md-6 about-text d-flex justify-content-center">
-                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                        <div class="col-12 about-text">
+                            <p>O Rancho Macakinha é destinado a pescadores, grupo de amigos, famílias ou qualquer outro grupo que curta a natureza, tranquilidade, muito sossego e uma boa pescaria. Estamos localizados às margens do Rio São Matheus e os seus afluentes Rio Capivara e Rio Rancharia, no Distrito de Gardênia, Município de Rancharia – SP. O rancho é de fácil acesso, com asfalto até a sua entrada, local para embarque e desembarque de barcos de pesca e/ou caiaques, e amplo espaço de estacionamento e montagem de barracas.</p>
+                            <p>As acomodações são muito aconchegantes e contam com varanda espaçosa, área de churrasqueira, fogão à lenha, deck de madeira com uma pequena piscina em fibra, uma casinha suspensa muito charmosa embaixo de uma grande árvore que proporciona sombra durante o dia todo com um espaço para descanso e uma boa prosa.</p>
+                            <p>A casa é de madeira, composta por um quarto com acomodação para até 8 pessoas, ar-condicionado, TV, duas beliches, uma bicama e um colchão de casal avulso. Temos também uma cozinha completa com geladeira, fogão, armário, pia, gabinete, mesas, cadeiras de área, e todos os utensílios de cozinha. O banheiro tem um bom espaço interno e possui ducha externa com água natural e chuveiro quente. Temos também um barracão que pode ser usado para guardar barcos ou montagens de barracas se for o caso.</p>
+                            <p><span class="obs">Observações</span>: Não fornecemos alimentação, devendo esta ser providenciada pelos hóspedes podendo, é claro, ser feita no próprio rancho. É necessário levar travesseiros e roupa de cama.</p>
                         </div>
                     </div>
                 </div>
@@ -156,34 +155,34 @@
                             <h3 class="main-title">Comodidades</h3>
                         </div>
 
-                        <div class="col-md-4 service-box" class="card-link" data-toggle="modal" data-target="#modal1" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box" class="card-link" data-toggle="modal" data-target="#modal1" >
                             <i class="fa-solid fa-person-swimming"></i>
                             <h4>Piscina Infantil</h4>
                         </div>
 
-                        <div class="col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal2" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal2" >
                             <i class="fa-solid fa-sailboat"></i>
-                            <h4>Beira-rio</h4>
+                            <h4>Acesso ao rio</h4>
                         </div>
 
-                        <div class="col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal3" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal3" >
                             <i class="fa-solid fa-toilet"></i>
-                            <h4>1 banheiro</h4>
+                            <h4>Banheiro</h4>
                         </div>
 
-                        <div class="col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
                             <i class="fa-solid fa-bed"></i>
-                            <h4>Quarto para 6 pessoas</h4>
+                            <h4>Acomodação para 8 pessoas</h4>
                         </div>
 
-                        <div class="col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
                             <i class="fa-solid fa-wind"></i>
                             <h4>Ar-condicionado</h4>
                         </div>
 
-                        <div class="col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
                             <i class="fa-solid fa-house"></i>
-                            <h4>Casa na árvore</h4>
+                            <h4>Casinha na árvore</h4>
                         </div>    
                     </div>
                 </div>
@@ -202,8 +201,8 @@
             
             <div id="contact-content">
                 <div class="container-fluid text-center">
-                    <form class="row align-items-center ps-5 pe-5" action="form.php" method="POST">
-                        <div class="col-md-6 p-5">
+                    <form class="row align-items-center ps-md-5 pe-md-5" action="form.php" method="POST">
+                        <div class="col-md-6 p-md-5 mb-2 mb-md-0">
                             <div class="dates-title-bg">
                                 <span>Escolha as datas de interesse</span>
                             </div>
@@ -222,7 +221,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 m-0 px-5">
+                        <div class="col-md-6 m-0 px-md-5">
                             <div class="contact-form-bg p-3">
                                 <form class="row g-3" action="form.php" method="POST">
                                     <div class="col-md-12 text-start">
@@ -257,8 +256,8 @@
                             <h3 class="main-title">Onde Estamos</h3>
                         </div>
 
-                        <div class="col-12">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1841.443653091019!2d-50.904992088127905!3d-22.62068309110906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1679353317157!5m2!1sen!2sbr" width="1100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-12 p-3">
+                            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1841.443653091019!2d-50.904992088127905!3d-22.62068309110906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1679353317157!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -276,8 +275,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <img id="logo-copy" src="./assets/img/logo_verde.png" alt="LAMOAM">
-                            <p>Copyright <a href="">Rancho Cia da Pesca</a> &copy; 2023 </br> Desenvolvido por  <a href="https://www.linkedin.com/in/gabrielpaiao/" target="_blank">Gabriel Paião</a></p>
+                            <img id="logo-copy" src="./assets/img/logo_verde.png" alt="Rancho Macakinha">
+                            <p>Copyright <a href="">Rancho Macakinha</a> &copy; 2023 </br> Desenvolvido por  <a href="https://www.linkedin.com/in/gabrielpaiao/" target="_blank">Gabriel Paião</a></p>
                         </div>
                     </div>
                 </div>
@@ -285,6 +284,7 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

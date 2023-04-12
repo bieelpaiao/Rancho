@@ -1,3 +1,10 @@
+/* Navbar Toggler -----------------------------------------------------------------------------------------------*/
+//Fecha o toggler quando um item da navbar é clicado
+
+$(".nav-link").on("click", function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
 const carrossel = document.querySelector(".carrossel"),
 firstImg = carrossel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
