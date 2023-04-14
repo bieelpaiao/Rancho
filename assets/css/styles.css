@@ -221,6 +221,21 @@ margin-bottom: 20px;
 color: var(--tertiary-color);
 }
 
+#values-area .card {
+    /*width: 15rem;*/
+}
+
+#values-area .card-title {
+    font-size: 36px;
+    color: var(--secondary-color);
+}
+
+#values-area i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
 #bg-contact-title {
     background-color: var(--main-color);
     padding: 10px;
@@ -314,78 +329,17 @@ color: var(--tertiary-color);
     padding: 15px;
 }
 
-#services-area, #about-area, #location-area, #gallery-area {
+.logo-whatsapp {
+    height: 50px;
+    width: 50px;
+}
+
+#services-area, #about-area, #location-area, #gallery-area, #values-area {
     scroll-margin-top: 60px;
 }
 
 #contact-title {
     scroll-margin-top: 90px;
-}
-
-.fundo {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.boxes {
-    display: flex;
-    width: 1000px;
-    height: 500px;
-}
-
-.box-left {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-color: #565656;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-left img {
-    position: relative;
-    height: 450px;
-}
-
-.box-right {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-color: #E7C002;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
-    border: 0;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.background-logo {
-    position: absolute;
-    background-color: white;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 80px;
-    width: 200px;
-    margin-top: -50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.background-logo img {
-    position: relative;
-    width: 150px;
 }
 
 .form1 {
@@ -474,12 +428,23 @@ color: var(--tertiary-color);
         font-size: 30px;
     }
 
-    #services-area, #about-area, #location-area, #gallery-area {
+    #services-area, #about-area, #location-area, #gallery-area, #values-area {
         scroll-margin-top: 40px;
     }
 
     #contact-title {
         scroll-margin-top: 15px;
+    }
+
+    .circle-bg-wpp {
+        bottom:15px;
+        right:15px;
+        padding: 10px;
+    }
+
+    .logo-whatsapp {
+        height: 40px;
+        width: 40px;
     }
 }
   

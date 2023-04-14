@@ -12,7 +12,7 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/img/logo_verde.png" alt="Logo Cia da Pesca" id="navbar-logo">
@@ -38,6 +38,10 @@
 
                             <li class="nav-item">
                                 <a class="nav-link" href="#services-area">Comodidades</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#values-area">Valores</a>
                             </li>
 
                             <li class="nav-item">
@@ -135,7 +139,7 @@
                             <h3 class="main-title">A casa</h3>
                         </div>
 
-                        <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center p-4">
                             <div class="wrapper">
                                 <i id="left" class="fa-solid fa-angle-left"></i>
                                 <div class="carrossel">
@@ -155,35 +159,65 @@
                             <h3 class="main-title">Comodidades</h3>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 service-box" class="card-link" data-toggle="modal" data-target="#modal1" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box">
                             <i class="fa-solid fa-person-swimming"></i>
                             <h4>Piscina Infantil</h4>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal2" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box">
                             <i class="fa-solid fa-sailboat"></i>
                             <h4>Acesso ao rio</h4>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal3" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box">
                             <i class="fa-solid fa-toilet"></i>
                             <h4>Banheiro</h4>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box">
                             <i class="fa-solid fa-bed"></i>
                             <h4>Acomodação para 8 pessoas</h4>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box">
                             <i class="fa-solid fa-wind"></i>
                             <h4>Ar-condicionado</h4>
                         </div>
 
-                        <div class="col-12 col-sm-6 col-md-4 service-box"class="card-link" data-toggle="modal" data-target="#modal4" >
+                        <div class="col-12 col-sm-6 col-md-4 service-box">
                             <i class="fa-solid fa-house"></i>
                             <h4>Casinha na árvore</h4>
                         </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div id="values-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Valores</h3>
+                        </div>
+
+                        <div class="col-12 col-sm-6 p-3 d-flex justify-content-center">
+                            <div class="card text-center w-75">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-money-bills"></i>
+                                    <h6 class="card-title value">R$ 100,00</h6>
+                                    <p class="card-text">Dias consecutivos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 p-3 d-flex justify-content-center">
+                            <div class="card text-center w-75">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-money-bills"></i>
+                                    <h6 class="card-title value">R$ 120,00</h6>
+                                    <p class="card-text">Dia avulso</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -202,7 +236,7 @@
             <div id="contact-content">
                 <div class="container-fluid text-center">
                     <form class="row align-items-center ps-md-5 pe-md-5" action="form.php" method="POST">
-                        <div class="col-md-6 p-md-5 mb-2 mb-md-0">
+                        <div class="col-lg-6 p-md-5 my-2 my-md-0">
                             <div class="dates-title-bg">
                                 <span>Escolha as datas de interesse</span>
                             </div>
@@ -221,7 +255,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 m-0 px-md-5">
+                        <div class="col-lg-6 m-0 px-md-5">
                             <div class="contact-form-bg p-3">
                                 <form class="row g-3" action="form.php" method="POST">
                                     <div class="col-md-12 text-start">
@@ -256,7 +290,7 @@
                             <h3 class="main-title">Onde Estamos</h3>
                         </div>
 
-                        <div class="col-12 p-3">
+                        <div class="col-12 p-2">
                             <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1841.443653091019!2d-50.904992088127905!3d-22.62068309110906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1679353317157!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
@@ -266,7 +300,7 @@
 
         <div class="circle-bg-wpp d-flex align-items-center justify-content-center">
             <a href="https://api.whatsapp.com/send/?phone=5518998124063&text=Ol%C3%A1!%20Vi%20seu%20Rancho%20no%20site." target="_blank">
-                <img src="./assets/img/whatsapp.svg" width="50" height="50">
+                <img src="./assets/img/whatsapp.svg" class="logo-whatsapp">
             </a>
         </div>
 
